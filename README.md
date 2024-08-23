@@ -14,12 +14,12 @@ This is a Node.js API for managing school data. The system allows users to add n
 - MySQL
 - dotenv
 - mysql2
-- Heroku (for deployment)
+- Vercel (for deployment)
 - Postman (for testing)
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/school-management-api.git
-   cd school-management-api
+   git clone https://github.com/enockuwumukiza/skl_dbms.git
+   cd school-api
