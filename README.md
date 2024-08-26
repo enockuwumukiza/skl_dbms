@@ -5,7 +5,9 @@ This is a Node.js API for managing school data. The system allows users to add n
 ## Features
 
 - **Add School**: Create a new school entry with name, address, latitude, and longitude.
+All fields must be added for school to be successfully added
 - **List Schools**: Retrieve a list of schools sorted by proximity to a given location.
+To get schools, latitude and longitude queries are needed
 
 ## Technologies Used
 
@@ -14,7 +16,7 @@ This is a Node.js API for managing school data. The system allows users to add n
 - MySQL
 - dotenv
 - mysql2
-- Vercel (for deployment)
+- Render (for deployment)
 - Postman (for testing)
 
 ## Installation
