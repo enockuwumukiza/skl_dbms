@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Management API</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #666;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    .endpoint {
+      font-weight: bold;
+      color: #008080;
+    }
+  </style>
+</head>
+<body>
+  <h1>School Management API</h1>
+  <p>Welcome to the School Management API. This API allows you to manage school data by adding new schools and retrieving a list of schools based on proximity to a user-specified location.</p>
+
+  <h2>Available Endpoints</h2>
+  <ul>
+    <li><span class="endpoint">POST /addSchool</span> - Add a new school by providing the name, address, latitude, and longitude.</li>
+    <li><span class="endpoint">GET /listSchools?latitude=-1.9473&longitude=30.0503</span> - Retrieve a list of schools sorted by proximity to a given latitude and longitude.</li>
+  </ul>
+
+  <h2>Technologies Used</h2>
+  <ul>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>MySQL</li>
+  </ul>
+
+  <p>For more information, please visit the <a href="https://github.com/enockuwumukiza/skl_dbms" target="_blank">GitHub repository</a>.</p>
+</body>
+</html>
