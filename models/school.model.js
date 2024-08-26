@@ -9,7 +9,6 @@ const School = {
     );
     return result.insertId;
   },
-
   getAllSchools: async () => {
     const [rows] = await db.query('SELECT * FROM schools');
     return rows;
